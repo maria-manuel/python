@@ -15,7 +15,8 @@ print('--------------- Challenge 2')
 # Challenge 2: Repeat challenge 1, but for multiplication, division and
 # subtraction, printing each result.
 
-
+menu = spam * eggs
+print (menu)
 
 
 
