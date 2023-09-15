@@ -48,7 +48,7 @@ print('It is a ' + rabbit_type + ' rabbit!')
 ## Goal 2: Should print "My favorite color is: Yellow"
 
 favorite_color = 'Yellow'
-print('My favorite color is: ' + favorite_color)
+print('My favorite color is:', favorite_color)
 
 
 
@@ -65,7 +65,7 @@ print('--------------- Challenge 5')
 # Average:
 # 1. Add together all the numbers into a variable called "total_sales"
 # 2. Create a new variable called "count" and store in that variable the number
-# of albums listed here (just write the number)
+# of albums listed here (just write the number) = 9
 # 3. Use print to compute the average
 
 bon_jovi = 12.9
@@ -78,6 +78,14 @@ ac_dc = 19.1
 whitney_houston = 14.2
 guns_n_roses = 15.6
 
+highest_album = michael_jackson
+lowest_album = bon_jovi
+print(highest_album - lowest_album)
+
+total_sales = bon_jovi + bruce_springsteen + michael_jackson + prince + dire_straits + phil_collins + ac_dc + whitney_houston + guns_n_roses
+print('Total sales:' ,total_sales)
+count = 9
+print('Average:' ,total_sales / count)
 
 
 
