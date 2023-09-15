@@ -41,14 +41,14 @@ print('--------------- Challenge 4')
 
 ## Goal 1: Should print "It is a killer rabbit!"
 
-#rabbit_type = killer
-#print('It is a ' rabbit_type ' rabbit!')
+rabbit_type = 'killer'
+print('It is a ' + rabbit_type + ' rabbit!')
 
 
 ## Goal 2: Should print "My favorite color is: Yellow"
 
-#favorite_color: "Yellow"
-#print('My favorite color is: favorite_color')
+favorite_color = 'Yellow'
+print('My favorite color is: ' + favorite_color)
 
 
 
