@@ -104,10 +104,14 @@ print('--------------- Challenge 6')
 # assigning it to itself + 1.
 number = 10
 
+number = number + 1
+print(number)
 
+number = number + 1
+print(number)
 
-
-
+number = number + 1
+print(number)
 
 
 
@@ -116,14 +120,10 @@ print('--------------- Challenge 7')
 # Before you "uncomment" these lines, what do you think it will print out?
 # Again, remember "=" is assignment, not equality.
 
-# a = 5
-# b = a
-# a = 3
-# print(b)
-
-
-
-
+a = 5
+b = a
+a = 3
+print(b)
 
 
 
@@ -138,11 +138,11 @@ average_velocity_of_swallow = 38.6243
 is_parrot_dead = True
 cheese_left_in_shop = None
 
-# print("Type of questions_remaining: ", type(questions_remaining))
-# print("Type of name: ", type(name))
-
-
-
+print("Type of questions_remaining: ", type(questions_remaining))
+print("Type of name: ", type(name))
+print("type of average_velocity_of_swallow: ", type(average_velocity_of_swallow))
+print("Type of is_parrot_dead ", type(is_parrot_dead))
+print("Type of cheese_left_in_shop", type(cheese_left_in_shop))
 
 
 print('---------------')
