@@ -19,8 +19,12 @@ print('--------------- Challenge 2')
 # Combine ("concatenate") the three chapters into a single variable, and print
 # out that single variable.
 
+chapter_1 = open('./frankenstein/chapter_1.txt').read()
+chapter_2 = open('./frankenstein/the_second_chapter.txt').read()
+chapter_3 = open('./frankenstein/AND_here_is_THE_third.txt').read()
 
-
+combined_chapters = chapter_1 + chapter_2 + chapter_3
+print (combined_chapters)
 
 print('--------------- Challenge 3')
 # Challenge 3: 
@@ -31,8 +35,12 @@ print('--------------- Challenge 3')
 # Write code that reads in these files and then combines them with that
 # ordering.
 
-
-
+first = open('./html_fragments/fragment_d.html').read()
+second = open('./html_fragments/fragment_a.html').read()
+third = open('./html_fragments/fragment_c.html').read()
+fourth = open('./html_fragments/fragment_b.html').read()
+combined_html = first + second + third + fourth
+print(combined_html)
 
 # Bonus Challenge 
 # Remember that we can redirect the output of a command into a file using ">"?
